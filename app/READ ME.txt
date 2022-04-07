@@ -1,0 +1,28 @@
+                                                                                   Weather
+                                                                                    Data
+                                                            
+
+
+=> THERE ARE TWO APPS INSIDE THESE FOLDERS ONE IS FOR THE WIDGET AND ANOTHER IS JUST A TABLE REPRESENTATION OF THE DATA
+=> TO RUN THE APPS JUST OPEN THE RESPECTIVE FOLDERS IN THE CODE EDITOR AND WRITE COMMAND (ng serve) IN THE TERMINAL TO START APP IN THE LOCALHOST SERVER.
+
+
+Weather Data is a table which is made from the Data received from the given API server
+Steps:-
+
+1. First of all we create an angular app with the help of Angular CLI.
+
+2. Secondly service named weather-api is created also with the help of CLI commands.
+
+3. Now we call the API within service with the help of HttpClient and get it from the API link/url and export it out of the services.
+
+4. Now we also needs to import HttpClientModule inside component module.
+
+5. Now import service data from services and assign it to an Object which we created from the imported function from the services.
+
+6. Now we bind those Object values to the elements in the DOM through the Component HTML file and bind it with table elements with the help of loops and key and values.
+
+7. To make the data look decent we apply some css for the UI inside the Component-CSS file .
+
+Your's 
+Gaurav Singh Rawat
